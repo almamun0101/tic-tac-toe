@@ -1,7 +1,6 @@
 let boxes = document.querySelectorAll(".box");
 let resetbtn = document.querySelectorAll("#resetbutton");
 
-
 let player0 = true;
 
 boxes.forEach((box)=>{
@@ -12,6 +11,7 @@ boxes.forEach((box)=>{
             box.innerHTML="O";
             player0=false;
             console.log('palyer0');
+            
             
         }
         else{

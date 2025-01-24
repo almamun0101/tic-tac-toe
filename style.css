@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: aquamarine;
+
+}
+
+.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: .5px solid black;
+    font-size: 10vmin;
+}
+
+.resetbutton {
+    text-align: center;
+    padding-top: 2vmin;
+
+    button {
+        padding: 3vmin 5vmin;
+        font-size: 3vmin;
+    }
+}
+
+.player {
+    text-align: center;
+    padding: 20px 0px;
+    gap: 20px;
+    display: flex;
+    justify-content: space-around;
+
+    button {
+        padding: 3vmin 5vmin;
+        font-size: 2vmin;
+    }
+}

@@ -32,7 +32,7 @@ body {
     font-size: 10vmin;
 }
 
-.resetbutton {
+#resetbutton {
     text-align: center;
     padding-top: 2vmin;
 
